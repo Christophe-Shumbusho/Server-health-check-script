@@ -122,7 +122,7 @@ def send_email_alert(failed_services):
 
 def check_all_servers(servers):  
     print("\nStarting health checks...")
-    print("-" * 60)
+    print("-" * 70)
     failed_services = []
     
     for url in servers:
