@@ -139,7 +139,7 @@ def check_all_servers(servers):
         send_email_alert(failed_services)
         
     else:
-        print("\nAll services are healthy!\n")
+        print("\nAll server services are healthy!\n")
      
 if __name__ == "__main__":
     servers_to_check = load_servers()
